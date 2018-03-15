@@ -9,6 +9,9 @@
 ## Setting
 After install SEMA tool, put "json_sema.py" file in /usr/local/SEMA/bin and run this program with root.
 
+## flows.json
+![image](https://github.com/jaytkkmn/ADLINK_SEMA/blob/master/flow.png)
+
 ## Demo program with docker image
 **Create mosquitto by docker** <br>
 docker run -td -p 1883:1883 -p 9001:9001 --restart=always --name mosquitto eclipse-mosquitto <br><br>
